@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 30 npm run build)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(host 52.76.176.200)",
+      "Bash(nslookup 52.76.176.200)",
+      "Bash(dig +short keycloak.cdebase.dev)",
+      "Bash(dig +short cdebase.dev)",
+      "Read(//Users/shubham/projects/cdebase/aicode-stack/**)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
